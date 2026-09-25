@@ -1,0 +1,17 @@
+item_id,name,category,quantity,unit_price,supplier,reorder,stock_value,status
+I001,Wireless Mouse,Electronics,25,650.0,Tech Supplies,10,16250.0,IN STOCK
+I002,Printer Paper,Stationery,5,280.0,Office Mart,8,1400.0,LOW STOCK
+I003,USB Cable,Electronics,0,150.0,Tech Supplies,5,0.0,OUT OF STOCK
+I004,Mechanical Keyboard,Electronics,18,2450.0,Digital World,6,44100.0,IN STOCK
+I005,A4 Notebook,Stationery,70,95.0,Office Mart,10,6650.0,IN STOCK
+I006,Office Chair,Furniture,12,4850.0,Comfort Furnishings,4,58200.0,IN STOCK
+I007,Whiteboard Marker,Stationery,0,45.0,Campus Store,15,0.0,OUT OF STOCK
+I008,LED Monitor,Electronics,9,12750.0,Digital World,3,114750.0,IN STOCK
+I009,Desk Lamp,Furniture,4,1250.0,Comfort Furnishings,5,5000.0,LOW STOCK
+I010,Network Router,Networking,14,3200.0,Net Solutions,5,44800.0,IN STOCK
+I011,Ethernet Cable,Networking,30,275.0,Net Solutions,12,8250.0,IN STOCK
+I012,Laser Toner,Printing,2,3800.0,Print House,4,7600.0,LOW STOCK
+I013,Document Scanner,Electronics,0,18500.0,Digital World,2,0.0,OUT OF STOCK
+I014,File Folder,Stationery,40,35.0,Campus Store,15,1400.0,IN STOCK
+I015,Extension Board,Electrical,6,725.0,Power Point,8,4350.0,LOW STOCK
+I016,File Folder,Stationery,40,35.0,Campus Store,15,1400.0,IN STOCK

@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PWP Python Studio | 5 GUI Applications & Complete Lab Manual</title>
+  <meta name="description" content="Academic portfolio for Programming with Python (01AP0303). Features 5 complete Tkinter desktop applications, interactive web simulators, and full lab manuals by Tirth Patel.">
+  <meta name="author" content="TIRTH KUMAR JANTILAL KAVAR">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="PWP Python Studio - 5 Desktop GUI Projects & Lab Manual">
+  <meta property="og:description" content="100% Python Standard Library Tkinter GUI Suite, comprehensive lab manuals, and live in-browser simulators.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==================== Header Navigation ==================== -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#" class="brand-link">
+        <div class="brand-icon">
+          <i class="fab fa-python"></i>
+        </div>
+        <span>PWP Studio</span>
+        <span class="brand-badge">01AP0303</span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#overview" class="active">Overview</a></li>
+          <li class="nav-item"><a href="#projects">5 GUI Projects</a></li>
+          <li class="nav-item"><a href="#simulators">Live Playground</a></li>
+          <li class="nav-item"><a href="#manuals">Lab Manuals</a></li>
+          <li class="nav-item"><a href="#quickstart">Quickstart</a></li>
+          <li class="nav-item"><a href="#author">Author</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+          <i class="fas fa-sun"></i>
+        </button>
+        <a href="https://github.com/Tirth-byte/PWP" target="_blank" rel="noopener noreferrer" class="github-btn">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== Hero Section ==================== -->
+  <section id="overview" class="hero-section">
+    <div class="container">
+      <div class="hero-badge-wrapper">
+        <span class="hero-badge-dot"></span>
+        <span>B.Tech CSE (AI &amp; ML) • Marwadi University • Class 3EG1</span>
+      </div>
+
+      <h1 class="hero-title">
+        5 Python GUI Applications &amp; <br>
+        <span class="gradient-text">Complete Lab Experiments Suite</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        A high-performance portfolio featuring 5 complete desktop applications built with pure Python standard library (Tkinter), safe AST evaluation, CSV data engines, and comprehensive lab documentation.
+      </p>
+
+      <div class="student-meta-card">
+        <div class="meta-item">
+          <i class="fas fa-user-graduate" style="color: var(--accent-primary);"></i>
+          <span>Student: <strong>TIRTH KUMAR JANTILAL KAVAR</strong></span>
+        </div>
+        <div class="meta-divider"></div>
+        <div class="meta-item">
+          <i class="fas fa-id-badge" style="color: var(--accent-cyan);"></i>
+          <span>Enrollment: <strong>92500116005</strong></span>
+        </div>
+        <div class="meta-divider"></div>
+        <div class="meta-item">
+          <i class="fas fa-hashtag" style="color: var(--accent-emerald);"></i>
+          <span>GR No.: <strong>135965</strong></span>
+        </div>
+        <div class="meta-divider"></div>
+        <div class="meta-item">
+          <i class="fas fa-book" style="color: var(--accent-amber);"></i>
+          <span>Course: <strong>Programming with Python</strong></span>
+        </div>
+      </div>
+
+      <div class="hero-cta-group">
+        <a href="#simulators" class="btn-primary">
+          <i class="fas fa-play"></i>
+          <span>Try In-Browser Simulators</span>
+        </a>
+        <a href="#projects" class="btn-secondary">
+          <i class="fas fa-layer-group"></i>
+          <span>Explore 5 GUI Projects</span>
+        </a>
+        <a href="#manuals" class="btn-secondary">
+          <i class="fas fa-file-pdf"></i>
+          <span>Download Lab Manuals</span>
+        </a>
+      </div>
+
+      <!-- Stats Grid -->
+      <div class="hero-stats-grid">
+        <div class="stat-card">
+          <div class="stat-num" style="color: var(--accent-primary);">05</div>
+          <div class="stat-label">Tkinter GUI Applications</div>
+          <div class="stat-desc">Calculator, Payroll, Grades, Inventory, Log Analyzer</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" style="color: var(--accent-cyan);">100%</div>
+          <div class="stat-label">Python Standard Library</div>
+          <div class="stat-desc">Zero external pip dependencies required to execute</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" style="color: var(--accent-emerald);">05 / 05</div>
+          <div class="stat-label">Lab Experiments &amp; Manual</div>
+          <div class="stat-desc">Complete lab manuals in PDF &amp; DOCX format</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" style="color: var(--accent-amber);">Live</div>
+          <div class="stat-label">Interactive Simulators</div>
+          <div class="stat-desc">Run and test all 5 applications directly in your browser</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 5 GUI Projects Deep-Dive ==================== -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Academic Coursework</span>
+        <h2 class="section-title">The Five Python GUI Projects</h2>
+        <p class="section-desc">Each application is cleanly architected with event-driven Tkinter patterns, rigorous input validation, real-time feedback, and persistent storage.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="project-tabs">
+        <button class="tab-btn active" data-target="all">All Applications (5)</button>
+        <button class="tab-btn" data-target="calc">01. Smart Calculator</button>
+        <button class="tab-btn" data-target="payroll">02. Payroll System</button>
+        <button class="tab-btn" data-target="grade">03. Grade Analyzer</button>
+        <button class="tab-btn" data-target="inventory">04. Inventory Tracker</button>
+        <button class="tab-btn" data-target="logs">05. Log Analyzer</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: Smart Calculator -->
+        <article class="project-card" data-project="calc">
+          <div class="project-info">
+            <div class="project-meta-bar">
+              <span class="project-id-badge">PROJECT 01</span>
+              <div class="tech-pills">
+                <span class="tech-pill">Python 3</span>
+                <span class="tech-pill">Tkinter / ttk</span>
+                <span class="tech-pill">AST Safe Parsing</span>
+                <span class="tech-pill">Math Engine</span>
+              </div>
+            </div>
+            <h3 class="project-title">Smart Calculator with Scientific Engine</h3>
+            <p class="project-objective">
+              A high-precision arithmetic and scientific calculator featuring an AST (Abstract Syntax Tree) safe evaluator, preventing unsafe eval code execution while offering trigonometry, logarithms, power, and real-time history logs.
+            </p>
+            <ul class="feature-list">
+              <li class="feature-item"><i class="fas fa-check-circle"></i><span>Supports standard arithmetic (+, -, ×, ÷), parentheses, and percentages</span></li>
+              <li class="feature-item"><i class="fas fa-check-circle"></i><span>Scientific functions: √ (sqrt), sin, cos, tan, log10, ln, factorial, π, e</span></li>
+              <li class="feature-item"><i class="fas fa-check-circle"></i><span>Session calculation history with reusable past values and error trapping</span></li>
+            </ul>
+            <div class="run-snippet-box">
+              <span class="run-snippet-code">python3 Python_GUI_Projects/01_Smart_Calculator/main.py</span>
+              <button class="copy-btn copy-snippet-btn" data-copy-text="python3 Python_GUI_Projects/01_Smart_Calculator/main.py" title="Copy Command">
+                <i class="far fa-copy"></i>
+              </button>
+            </div>
+            <div class="project-action-btns">
+              <button class="btn-simulator" data-sim="calc"><i class="fas fa-play"></i> Try Simulator</button>
+              <button class="btn-view-code" data-code="calc" data-title="01. Smart Calculator - AST Evaluator"><i class="fas fa-code"></i> View Python Code</button>
+            </div>
+          </div>
+          <div class="project-visuals">
+            <div class="main-screenshot-wrapper zoomable-shot" data-full-src="assets/screenshots/calc/calc-1.png" data-caption="Smart Calculator - Tkinter Interface">
+              <img src="assets/screenshots/calc/calc-1.png" alt="Smart Calculator GUI" class="main-screenshot-img">
+              <div class="screenshot-zoom-overlay"><i class="fas fa-search-plus"></i> View Screenshot</div>
+            </div>
+            <div class="screenshot-thumbs">
+              <div class="thumb-item active" data-src="assets/screenshots/calc/calc-1.png" data-caption="Smart Calculator - Main Keypad &amp; Display"><img src="assets/screenshots/calc/calc-1.png" alt="Thumb 1"></div>
+              <div class="thumb-item" data-src="assets/screenshots/calc/calc-2.png" data-caption="Smart Calculator - Scientific Calculations"><img src="assets/screenshots/calc/calc-2.png" alt="Thumb 2"></div>
+              <div class="thumb-item" data-src="assets/screenshots/calc/calc-3.png" data-caption="Smart Calculator - History View"><img src="assets/screenshots/calc/calc-3.png" alt="Thumb 3"></div>
+              <div class="thumb-item" data-src="assets/screenshots/calc/calc-4.png" data-caption="Smart Calculator - Error Trapping"><img src="assets/screenshots/calc/calc-4.png" alt="Thumb 4"></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: Employee Payroll System -->
+        <article class="project-card reversed" data-project="payroll">
+          <div class="project-visuals">
+            <div class="main-screenshot-wrapper zoomable-shot" data-full-src="assets/screenshots/payroll/payroll-1.png" data-caption="Employee Payroll System - Desktop View">
+              <img src="assets/screenshots/payroll/payroll-1.png" alt="Employee Payroll System GUI" class="main-screenshot-img">
+              <div class="screenshot-zoom-overlay"><i class="fas fa-search-plus"></i> View Screenshot</div>
+            </div>
+            <div class="screenshot-thumbs">
+              <div class="thumb-item active" data-src="assets/screenshots/payroll/payroll-1.png" data-caption="Payroll - Employee Management &amp; Treeview"><img src="assets/screenshots/payroll/payroll-1.png" alt="Thumb 1"></div>
+              <div class="thumb-item" data-src="assets/screenshots/payroll/payroll-2.png" data-caption="Payroll - Salary &amp; Deductions Form"><img src="assets/screenshots/payroll/payroll-2.png" alt="Thumb 2"></div>
+              <div class="thumb-item" data-src="assets/screenshots/payroll/payroll-3.png" data-caption="Payroll - Calculation Summary"><img src="assets/screenshots/payroll/payroll-3.png" alt="Thumb 3"></div>
+              <div class="thumb-item" data-src="assets/screenshots/payroll/payroll-4.png" data-caption="Payroll - CSV Export Confirmation"><img src="assets/screenshots/payroll/payroll-4.png" alt="Thumb 4"></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta-bar">
+              <span class="project-id-badge">PROJECT 02</span>
+              <div class="tech-pills">
+                <span class="tech-pill">Python 3</span>
+                <span class="tech-pill">Tkinter Treeview</span>
+                <span class="tech-pill">CSV Persistence</span>
+                <span class="tech-pill">Currency Engine</span>
+              </div>
+            </div>
+            <h3 class="project-title">Employee Payroll Management System</h3>
+            <p class="project-objective">
+              An enterprise-grade payroll desktop suite that validates employee profiles, computes overtime pay, calculates gross earnings, automated tax withholding, and net salary payouts with CSV export.
+            </p>
+            <ul class="feature-list">
+              <li class="feature-item"><i class="fas fa-check-circle"></i><span>Complete CRUD: Add, update, delete, and inspect employee salary records</span></li>
+              <li class="feature-item"><i class="fas fa-check-circle"></i><span>Accurate formulas: Basic + Overtime + Allowances - Tax - Other Deductions</span></li>
+              <li class="feature-item"><i class="fas fa-check-circle"></i><span>Local persistence in `payroll_data.csv` with instant export functionality</span></li>
+            </ul>
+            <div class="run-snippet-box">
+              <span class="run-snippet-code">python3 Python_GUI_Projects/02_Employee_Payroll_System/main.py</span>
+              <button class="copy-btn copy-snippet-btn" data-copy-text="python3 Python_GUI_Projects/02_Employee_Payroll_System/main.py" title="Copy Command">
+                <i class="far fa-copy"></i>
+              </button>
+            </div>
+            <div class="project-action-btns">
+              <button class="btn-simulator" data-sim="payroll"><i class="fas fa-play"></i> Try Simulator</button>
+              <button class="btn-view-code" data-code="payroll" data-title="02. Employee Payroll - Formula Calculation"><i class="fas fa-code"></i> View Python Code</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: Student Grade Analyzer -->
+        <article class="project-card" data-project="grade">
+          <div class="project-info">
+            <div class="project-meta-bar">
+              <span class="project-id-badge">PROJECT 03</span>
+              <div class="tech-pills">
+                <span class="tech-pill">Python 3</span>
+                <span class="tech-pill">Tkinter / ttk</span>
+                <span class="tech-pill">Analytics Engine</span>
+                <span class="tech-pill">Grade Criteria</span>
+              </div>
+            </div>
+            <h3 class="project-title">Student Grade Analyzer &amp; Performance Tracker</h3>
+            <p class="project-objective">
+              Analyzes individual and cohort academic performance. Validates 5-subject marks, enforces individual passing standards (minimum 40 in every subject), assigns letter grades, and detects subject strengths.
+            </p>
+            <ul class="feature-list">
+              <li class="feature-item"><i class="fas fa-check-circle"></i><span>5-Subject marks validation (0-100) with total score out of 500 &amp; percentage</span></li>
+              <li class="feature-item"><i class="fas fa-check-circle"></i><span>Automatic detection of strongest and weakest subjects for targeted feedback</span></li>
+              <li class="feature-item"><i class="fas fa-check-circle"></i><span>Cohort dashboard with class average, highest, lowest, and CSV reporting</span></li>
+            </ul>
+            <div class="run-snippet-box">
+              <span class="run-snippet-code">python3 Python_GUI_Projects/03_Student_Grade_Analyzer/main.py</span>
+              <button class="copy-btn copy-snippet-btn" data-copy-text="python3 Python_GUI_Projects/03_Student_Grade_Analyzer/main.py" title="Copy Command">
+                <i class="far fa-copy"></i>
+              </button>
+            </div>
+            <div class="project-action-btns">
+              <button class="btn-simulator" data-sim="grade"><i class="fas fa-play"></i> Try Simulator</button>
+              <button class="btn-view-code" data-code="grade" data-title="03. Student Grade - Analysis Algorithm"><i class="fas fa-code"></i> View Python Code</button>
+            </div>
+          </div>
+          <div class="project-visuals">
+            <div class="main-screenshot-wrapper zoomable-shot" data-full-src="assets/screenshots/grade/grade-1.png" data-caption="Student Grade Analyzer - Application View">
+              <img src="assets/screenshots/grade/grade-1.png" alt="Student Grade Analyzer GUI" class="main-screenshot-img">
+              <div class="screenshot-zoom-overlay"><i class="fas fa-search-plus"></i> View Screenshot</div>
+            </div>
+            <div class="screenshot-thumbs">
+              <div class="thumb-item active" data-src="assets/screenshots/grade/grade-1.png" data-caption="Grade Analyzer - Marks Entry &amp; Table"><img src="assets/screenshots/grade/grade-1.png" alt="Thumb 1"></div>
+              <div class="thumb-item" data-src="assets/screenshots/grade/grade-2.png" data-caption="Grade Analyzer - Subject Breakdown"><img src="assets/screenshots/grade/grade-2.png" alt="Thumb 2"></div>
+              <div class="thumb-item" data-src="assets/screenshots/grade/grade-3.png" data-caption="Grade Analyzer - Class Statistics"><img src="assets/screenshots/grade/grade-3.png" alt="Thumb 3"></div>
+              <div class="thumb-item" data-src="assets/screenshots/grade/grade-4.png" data-caption="Grade Analyzer - Individual Report"><img src="assets/screenshots/grade/grade-4.png" alt="Thumb 4"></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: Inventory Tracker -->
+        <article class="project-card reversed" data-project="inventory">
+          <div class="project-visuals">
+            <div class="main-screenshot-wrapper zoomable-shot" data-full-src="assets/screenshots/inventory/inventory-1.png" data-caption="Inventory Tracker - Warehouse Management">
+              <img src="assets/screenshots/inventory/inventory-1.png" alt="Inventory Tracker GUI" class="main-screenshot-img">
+              <div class="screenshot-zoom-overlay"><i class="fas fa-search-plus"></i> View Screenshot</div>
+            </div>
+            <div class="screenshot-thumbs">
+              <div class="thumb-item active" data-src="assets/screenshots/inventory/inventory-1.png" data-caption="Inventory - Stock Items Table"><img src="assets/screenshots/inventory/inventory-1.png" alt="Thumb 1"></div>
+              <div class="thumb-item" data-src="assets/screenshots/inventory/inventory-2.png" data-caption="Inventory - Reorder Alert Warnings"><img src="assets/screenshots/inventory/inventory-2.png" alt="Thumb 2"></div>
+              <div class="thumb-item" data-src="assets/screenshots/inventory/inventory-3.png" data-caption="Inventory - Real-Time Search &amp; Filter"><img src="assets/screenshots/inventory/inventory-3.png" alt="Thumb 3"></div>
+              <div class="thumb-item" data-src="assets/screenshots/inventory/inventory-4.png" data-caption="Inventory - Valuation Dashboard"><img src="assets/screenshots/inventory/inventory-4.png" alt="Thumb 4"></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta-bar">
+              <span class="project-id-badge">PROJECT 04</span>
+              <div class="tech-pills">
+                <span class="tech-pill">Python 3</span>
+                <span class="tech-pill">Tkinter Treeview</span>
+                <span class="tech-pill">Stock Alerts</span>
+                <span class="tech-pill">CSV Storage</span>
+              </div>
+            </div>
+            <h3 class="project-title">Warehouse Inventory &amp; Stock Tracker</h3>
+            <p class="project-objective">
+              Monitors catalog stock levels, computes cumulative valuation, highlights low-stock and out-of-stock items, and enables instant 4-field search (ID, Name, Category, Supplier).
+            </p>
+            <ul class="feature-list">
+              <li class="feature-item"><i class="fas fa-check-circle"></i><span>Automatic status calculation: IN STOCK, LOW STOCK, or OUT OF STOCK</span></li>
+              <li class="feature-item"><i class="fas fa-check-circle"></i><span>Real-time search across ID, description, category, and supplier</span></li>
+              <li class="feature-item"><i class="fas fa-check-circle"></i><span>Dynamic dashboard with total catalog count, stock value, and alert counters</span></li>
+            </ul>
+            <div class="run-snippet-box">
+              <span class="run-snippet-code">python3 Python_GUI_Projects/04_Inventory_Tracker/main.py</span>
+              <button class="copy-btn copy-snippet-btn" data-copy-text="python3 Python_GUI_Projects/04_Inventory_Tracker/main.py" title="Copy Command">
+                <i class="far fa-copy"></i>
+              </button>
+            </div>
+            <div class="project-action-btns">
+              <button class="btn-simulator" data-sim="inventory"><i class="fas fa-play"></i> Try Simulator</button>
+              <button class="btn-view-code" data-code="inventory" data-title="04. Inventory Tracker - Item Validation"><i class="fas fa-code"></i> View Python Code</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: Log File Analyzer -->
+        <article class="project-card" data-project="logs">
+          <div class="project-info">
+            <div class="project-meta-bar">
+              <span class="project-id-badge">PROJECT 05</span>
+              <div class="tech-pills">
+                <span class="tech-pill">Python 3</span>
+                <span class="tech-pill">Regular Expressions</span>
+                <span class="tech-pill">Logging &amp; Counters</span>
+                <span class="tech-pill">Diagnostics GUI</span>
+              </div>
+            </div>
+            <h3 class="project-title">System &amp; Server Log File Analyzer</h3>
+            <p class="project-objective">
+              Parses server, web, and application log files via regular expressions. Segregates events into DEBUG, INFO, WARNING, ERROR, and CRITICAL categories with dedicated error tables and CSV diagnostics export.
+            </p>
+            <ul class="feature-list">
+              <li class="feature-item"><i class="fas fa-check-circle"></i><span>Robust regex parser with graceful handling of malformed and corrupted lines</span></li>
+              <li class="feature-item"><i class="fas fa-check-circle"></i><span>Severity-based color highlighting with instant error frequency detection</span></li>
+              <li class="feature-item"><i class="fas fa-check-circle"></i><span>Diagnostics summary: error rate %, common error occurrences, and CSV exports</span></li>
+            </ul>
+            <div class="run-snippet-box">
+              <span class="run-snippet-code">python3 Python_GUI_Projects/05_Log_File_Analyzer/main.py</span>
+              <button class="copy-btn copy-snippet-btn" data-copy-text="python3 Python_GUI_Projects/05_Log_File_Analyzer/main.py" title="Copy Command">
+                <i class="far fa-copy"></i>
+              </button>
+            </div>
+            <div class="project-action-btns">
+              <button class="btn-simulator" data-sim="logs"><i class="fas fa-play"></i> Try Simulator</button>
+              <button class="btn-view-code" data-code="logs" data-title="05. Log File Analyzer - Regex Parser"><i class="fas fa-code"></i> View Python Code</button>
+            </div>
+          </div>
+          <div class="project-visuals">
+            <div class="main-screenshot-wrapper zoomable-shot" data-full-src="assets/screenshots/logs/logs-1.png" data-caption="Log File Analyzer - Diagnostics Overview">
+              <img src="assets/screenshots/logs/logs-1.png" alt="Log File Analyzer GUI" class="main-screenshot-img">
+              <div class="screenshot-zoom-overlay"><i class="fas fa-search-plus"></i> View Screenshot</div>
+            </div>
+            <div class="screenshot-thumbs">
+              <div class="thumb-item active" data-src="assets/screenshots/logs/logs-1.png" data-caption="Log Analyzer - Parsed Event Table"><img src="assets/screenshots/logs/logs-1.png" alt="Thumb 1"></div>
+              <div class="thumb-item" data-src="assets/screenshots/logs/logs-2.png" data-caption="Log Analyzer - Error &amp; Critical Filter"><img src="assets/screenshots/logs/logs-2.png" alt="Thumb 2"></div>
+              <div class="thumb-item" data-src="assets/screenshots/logs/logs-3.png" data-caption="Log Analyzer - Frequency Counter"><img src="assets/screenshots/logs/logs-3.png" alt="Thumb 3"></div>
+              <div class="thumb-item" data-src="assets/screenshots/logs/logs-4.png" data-caption="Log Analyzer - Statistical Summary"><img src="assets/screenshots/logs/logs-4.png" alt="Thumb 4"></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== Interactive Simulators Section ==================== -->
+  <section id="simulators" class="simulators-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">In-Browser Playground</span>
+        <h2 class="section-title">Interactive Web Simulators</h2>
+        <p class="section-desc">Experience the logic and functionality of all 5 Python applications right in your browser without needing to run terminal commands.</p>
+      </div>
+
+      <!-- Simulator Navigation Switcher -->
+      <div class="sim-nav">
+        <button class="sim-nav-btn active" data-sim="calc"><i class="fas fa-calculator"></i> 01. Calculator</button>
+        <button class="sim-nav-btn" data-sim="payroll"><i class="fas fa-file-invoice-dollar"></i> 02. Payroll System</button>
+        <button class="sim-nav-btn" data-sim="grade"><i class="fas fa-graduation-cap"></i> 03. Grade Analyzer</button>
+        <button class="sim-nav-btn" data-sim="inventory"><i class="fas fa-boxes-stacked"></i> 04. Inventory Tracker</button>
+        <button class="sim-nav-btn" data-sim="logs"><i class="fas fa-terminal"></i> 05. Log Analyzer</button>
+      </div>
+
+      <div class="sim-container">
+        <!-- 1. Calculator Panel -->
+        <div id="sim-calc" class="sim-panel active">
+          <div class="sim-panel-header">
+            <div>
+              <h3 class="sim-panel-title">Smart Calculator (Standard &amp; Scientific)</h3>
+              <p style="font-size: 0.85rem; color: var(--text-secondary);">Interactive reproduction of Tkinter SafeEvaluator calculation engine</p>
+            </div>
+            <span class="sim-badge">Live Interactive Engine</span>
+          </div>
+
+          <div class="calc-wrapper">
+            <div class="calc-display-area">
+              <div id="calcPrev" class="calc-prev-expr"></div>
+              <div id="calcInput" class="calc-curr-input">0</div>
+            </div>
+
+            <div class="calc-keypad">
+              <button class="calc-btn action-btn" data-action="clear">C</button>
+              <button class="calc-btn action-btn" data-action="backspace"><i class="fas fa-backspace"></i></button>
+              <button class="calc-btn sci-btn" data-val="%">%</button>
+              <button class="calc-btn op-btn" data-val="÷">÷</button>
+
+              <button class="calc-btn sci-btn" data-val="sqrt(">√</button>
+              <button class="calc-btn sci-btn" data-val="sin(">sin</button>
+              <button class="calc-btn sci-btn" data-val="cos(">cos</button>
+              <button class="calc-btn op-btn" data-val="×">×</button>
+
+              <button class="calc-btn" data-val="7">7</button>
+              <button class="calc-btn" data-val="8">8</button>
+              <button class="calc-btn" data-val="9">9</button>
+              <button class="calc-btn op-btn" data-val="-">-</button>
+
+              <button class="calc-btn" data-val="4">4</button>
+              <button class="calc-btn" data-val="5">5</button>
+              <button class="calc-btn" data-val="6">6</button>
+              <button class="calc-btn op-btn" data-val="+">+</button>
+
+              <button class="calc-btn" data-val="1">1</button>
+              <button class="calc-btn" data-val="2">2</button>
+              <button class="calc-btn" data-val="3">3</button>
+              <button class="calc-btn sci-btn" data-val="π">π</button>
+
+              <button class="calc-btn" data-val="0">0</button>
+              <button class="calc-btn" data-val=".">.</button>
+              <button class="calc-btn equals-btn" data-action="equals">=</button>
+            </div>
+
+            <div class="calc-history-list" id="calcHistory">
+              <div style="font-size: 0.78rem; color: #6b7280; text-align: center;">Session History will appear here</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Payroll Panel -->
+        <div id="sim-payroll" class="sim-panel">
+          <div class="sim-panel-header">
+            <div>
+              <h3 class="sim-panel-title">Employee Payroll Calculator</h3>
+              <p style="font-size: 0.85rem; color: var(--text-secondary);">Real-time gross salary, overtime calculation, deductions, and net compensation</p>
+            </div>
+            <span class="sim-badge">Interactive Form</span>
+          </div>
+
+          <div class="payroll-grid">
+            <form id="payrollForm" onsubmit="return false;">
+              <div class="sim-row">
+                <div class="sim-form-group">
+                  <label class="sim-label">Employee ID</label>
+                  <input type="text" class="sim-input" value="EMP-1029" readonly>
+                </div>
+                <div class="sim-form-group">
+                  <label class="sim-label">Employee Name</label>
+                  <input type="text" class="sim-input" value="Rahul Sharma">
+                </div>
+              </div>
+              <div class="sim-row">
+                <div class="sim-form-group">
+                  <label class="sim-label">Basic Salary (₹)</label>
+                  <input type="number" id="payBasic" class="sim-input" value="45000">
+                </div>
+                <div class="sim-form-group">
+                  <label class="sim-label">Allowances (₹)</label>
+                  <input type="number" id="payAllowances" class="sim-input" value="5000">
+                </div>
+              </div>
+              <div class="sim-row">
+                <div class="sim-form-group">
+                  <label class="sim-label">Overtime Hours</label>
+                  <input type="number" id="payOtHrs" class="sim-input" value="12">
+                </div>
+                <div class="sim-form-group">
+                  <label class="sim-label">Overtime Rate (₹/hr)</label>
+                  <input type="number" id="payOtRate" class="sim-input" value="350">
+                </div>
+              </div>
+              <div class="sim-row">
+                <div class="sim-form-group">
+                  <label class="sim-label">Performance Bonus (₹)</label>
+                  <input type="number" id="payBonus" class="sim-input" value="3000">
+                </div>
+                <div class="sim-form-group">
+                  <label class="sim-label">Tax Rate (%)</label>
+                  <input type="number" id="payTaxPct" class="sim-input" value="10">
+                </div>
+              </div>
+              <div class="sim-form-group">
+                <label class="sim-label">Other Deductions (Provident Fund / Insurance ₹)</label>
+                <input type="number" id="payDeductions" class="sim-input" value="1800">
+              </div>
+            </form>
+
+            <div class="payslip-receipt">
+              <div class="receipt-header">
+                <h4>SALARY SLIP &amp; BREAKDOWN</h4>
+                <p style="font-size: 0.75rem; color: var(--text-muted);">Marwadi University Software Labs</p>
+              </div>
+              <div class="receipt-row">
+                <span>Overtime Pay:</span>
+                <strong id="resPayOt">₹4,200.00</strong>
+              </div>
+              <div class="receipt-row">
+                <span>Gross Earnings:</span>
+                <strong id="resPayGross">₹57,200.00</strong>
+              </div>
+              <div class="receipt-row">
+                <span>Income Tax Withheld:</span>
+                <strong id="resPayTax" style="color: var(--accent-rose);">₹5,720.00</strong>
+              </div>
+              <div class="receipt-row">
+                <span>Total Deductions:</span>
+                <strong id="resPayDeductions" style="color: var(--accent-rose);">₹7,520.00</strong>
+              </div>
+              <div class="receipt-row total-row">
+                <span>NET SALARY PAYABLE:</span>
+                <strong id="resPayNet" style="color: var(--accent-emerald);">₹49,680.00</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Grade Panel -->
+        <div id="sim-grade" class="sim-panel">
+          <div class="sim-panel-header">
+            <div>
+              <h3 class="sim-panel-title">Student Grade &amp; Result Analyzer</h3>
+              <p style="font-size: 0.85rem; color: var(--text-secondary);">Validates 5 subjects, checks 40-mark passing benchmark, and assigns letter grades</p>
+            </div>
+            <span class="sim-badge">Live Calculator</span>
+          </div>
+
+          <div class="grade-grid">
+            <div>
+              <div class="sim-row">
+                <div class="sim-form-group">
+                  <label class="sim-label">Python Programming (0-100)</label>
+                  <input type="number" id="gradeS1" class="sim-input" min="0" max="100" value="94">
+                </div>
+                <div class="sim-form-group">
+                  <label class="sim-label">Data Structures (0-100)</label>
+                  <input type="number" id="gradeS2" class="sim-input" min="0" max="100" value="88">
+                </div>
+              </div>
+              <div class="sim-row">
+                <div class="sim-form-group">
+                  <label class="sim-label">Discrete Mathematics (0-100)</label>
+                  <input type="number" id="gradeS3" class="sim-input" min="0" max="100" value="92">
+                </div>
+                <div class="sim-form-group">
+                  <label class="sim-label">Computer Architecture (0-100)</label>
+                  <input type="number" id="gradeS4" class="sim-input" min="0" max="100" value="85">
+                </div>
+              </div>
+              <div class="sim-form-group">
+                <label class="sim-label">AI &amp; Machine Learning (0-100)</label>
+                <input type="number" id="gradeS5" class="sim-input" min="0" max="100" value="90">
+              </div>
+            </div>
+
+            <div class="grade-results-card">
+              <div id="resGradeBadge" class="grade-badge-huge">A+</div>
+              <div id="resGradeStatus" class="grade-status-pill pass">PASS</div>
+              <table class="grade-breakdown-table">
+                <tr><td>Total Score:</td><td id="resGradeTotal">449 / 500</td></tr>
+                <tr><td>Percentage:</td><td id="resGradePct">89.80%</td></tr>
+                <tr><td>Strongest Subject:</td><td id="resGradeHigh">Subject 1 (94)</td></tr>
+                <tr><td>Weakest Subject:</td><td id="resGradeLow">Subject 4 (85)</td></tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Inventory Panel -->
+        <div id="sim-inventory" class="sim-panel">
+          <div class="sim-panel-header">
+            <div>
+              <h3 class="sim-panel-title">Warehouse Inventory Tracker</h3>
+              <p style="font-size: 0.85rem; color: var(--text-secondary);">Real-time stock value monitoring with low-stock warnings</p>
+            </div>
+            <button id="invAddBtn" class="btn-primary" style="padding: 0.45rem 1rem; font-size: 0.82rem;"><i class="fas fa-plus"></i> Add Item</button>
+          </div>
+
+          <div class="inventory-sim-header">
+            <input type="text" id="invSearch" class="sim-input" placeholder="Search by ID, name or category..." style="max-width: 320px;">
+            <div style="display: flex; gap: 1rem; font-size: 0.85rem; align-items: center;">
+              <span>Total Catalog: <strong id="invTotalItems">5</strong></span>
+              <span>Total Value: <strong id="invTotalVal" style="color: var(--accent-emerald);">₹4,30,865</strong></span>
+              <span>Low Stock Alerts: <strong id="invAlerts" style="color: var(--accent-amber);">2</strong></span>
+            </div>
+          </div>
+
+          <div class="sim-table-wrapper">
+            <table class="sim-data-table">
+              <thead>
+                <tr>
+                  <th>Item ID</th>
+                  <th>Description</th>
+                  <th>Category</th>
+                  <th>Qty</th>
+                  <th>Unit Price</th>
+                  <th>Total Value</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="inventoryTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 5. Log Analyzer Panel -->
+        <div id="sim-logs" class="sim-panel">
+          <div class="sim-panel-header">
+            <div>
+              <h3 class="sim-panel-title">Server Log File Inspector</h3>
+              <p style="font-size: 0.85rem; color: var(--text-secondary);">Regex parsed system logs with severity levels and error ratios</p>
+            </div>
+            <span class="sim-badge">Regex Diagnostics</span>
+          </div>
+
+          <div class="log-metrics-grid">
+            <div class="log-metric-card">
+              <div id="logStatTotal" class="log-metric-val" style="color: var(--accent-primary);">10</div>
+              <div class="log-metric-lbl">Total Events</div>
+            </div>
+            <div class="log-metric-card">
+              <div id="logStatErrors" class="log-metric-val" style="color: var(--accent-rose);">4</div>
+              <div class="log-metric-lbl">Errors / Critical</div>
+            </div>
+            <div class="log-metric-card">
+              <div id="logStatRate" class="log-metric-val" style="color: var(--accent-amber);">40.0%</div>
+              <div class="log-metric-lbl">Error Rate</div>
+            </div>
+          </div>
+
+          <div class="log-toolbar">
+            <select id="logLevelFilter" class="sim-input" style="padding: 0.5rem 0.85rem;">
+              <option value="ALL">All Log Levels</option>
+              <option value="INFO">INFO Only</option>
+              <option value="WARNING">WARNING Only</option>
+              <option value="ERROR">ERROR Only</option>
+              <option value="CRITICAL">CRITICAL Only</option>
+            </select>
+            <input type="text" id="logSearch" class="sim-input" placeholder="Search message content..." style="flex: 1;">
+          </div>
+
+          <div class="log-console" id="logConsole"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== Lab Manuals & Documents Section ==================== -->
+  <section id="manuals" class="manuals-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Academic Documentation</span>
+        <h2 class="section-title">Official Lab Manuals &amp; Reports</h2>
+        <p class="section-desc">Download complete experiment write-ups, theoretical solutions, lab practical submissions, and the university project logbook.</p>
+      </div>
+
+      <div class="manuals-grid">
+        <!-- Manual 1 -->
+        <div class="manual-card">
+          <div>
+            <div class="manual-icon pdf"><i class="fas fa-file-pdf"></i></div>
+            <h3 class="manual-title">Complete Python Lab Manual</h3>
+            <p class="manual-meta">Course Code: 01AP0303 • Comprehensive All-in-One Edition • PDF (948 KB)</p>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+              Complete laboratory manual covering Python syntax, data types, control flow, modular programming, object-oriented concepts, and GUI applications.
+            </p>
+          </div>
+          <div class="manual-actions">
+            <a href="01AP0303_Programming_with_Python_Complete_Lab_Manual.pdf" download class="btn-download">
+              <i class="fas fa-download"></i> Download PDF
+            </a>
+          </div>
+        </div>
+
+        <!-- Manual 2 -->
+        <div class="manual-card">
+          <div>
+            <div class="manual-icon pdf"><i class="fas fa-file-pdf"></i></div>
+            <h3 class="manual-title">Lab Experiments 01 to 05</h3>
+            <p class="manual-meta">Experiments 1-5 Detailed Solutions • PDF (4.9 MB)</p>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+              Step-by-step practical implementation reports for Experiments 01 through 05, complete with algorithms, test cases, screenshots, and faculty review sheets.
+            </p>
+          </div>
+          <div class="manual-actions">
+            <a href="01AP0303_Programming_with_Python_Lab_Manual_Experiments_01_to_05.pdf" download class="btn-download">
+              <i class="fas fa-download"></i> Download PDF
+            </a>
+          </div>
+        </div>
+
+        <!-- Manual 3 -->
+        <div class="manual-card">
+          <div>
+            <div class="manual-icon docx"><i class="fas fa-file-word"></i></div>
+            <h3 class="manual-title">UNIFLEX Project Logbook</h3>
+            <p class="manual-meta">Academic Coursework Logbook • DOCX (12.6 MB)</p>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+              The comprehensive project logbook documenting weekly milestones, software design diagrams, execution verification, and project evaluations.
+            </p>
+          </div>
+          <div class="manual-actions">
+            <a href="UNIFLEX_Project_Logbook.docx" download class="btn-download">
+              <i class="fas fa-download"></i> Download DOCX
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== Quickstart Terminal Section ==================== -->
+  <section id="quickstart" class="quickstart-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Developer Setup</span>
+        <h2 class="section-title">Run Any Project in Seconds</h2>
+        <p class="section-desc">Zero pip dependencies required. Built strictly with the Python 3 standard library.</p>
+      </div>
+
+      <div class="terminal-card">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <span class="terminal-title">bash — 80x24</span>
+          <button class="copy-btn copy-snippet-btn" data-copy-text="git clone https://github.com/Tirth-byte/PWP.git && cd PWP" title="Copy Clone Command">
+            <i class="far fa-copy"></i>
+          </button>
+        </div>
+        <div class="terminal-body">
+          <p class="term-comment"># 1. Clone this repository</p>
+          <p><span class="term-cmd">$ git clone https://github.com/Tirth-byte/PWP.git</span></p>
+          <p><span class="term-cmd">$ cd PWP</span></p>
+          <br>
+          <p class="term-comment"># 2. Launch any of the 5 GUI applications</p>
+          <p><span class="term-cmd">$ python3 Python_GUI_Projects/01_Smart_Calculator/main.py</span></p>
+          <p><span class="term-cmd">$ python3 Python_GUI_Projects/02_Employee_Payroll_System/main.py</span></p>
+          <p><span class="term-cmd">$ python3 Python_GUI_Projects/03_Student_Grade_Analyzer/main.py</span></p>
+          <p><span class="term-cmd">$ python3 Python_GUI_Projects/04_Inventory_Tracker/main.py</span></p>
+          <p><span class="term-cmd">$ python3 Python_GUI_Projects/05_Log_File_Analyzer/main.py</span></p>
+          <br>
+          <p class="term-output">✔ GUI windows initialize instantly with full native styling.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== Author / Student Profile Section ==================== -->
+  <section id="author" class="author-section">
+    <div class="container">
+      <div class="author-card">
+        <div class="author-avatar">
+          <img src="https://avatars.githubusercontent.com/u/226997484?v=4" alt="Tirth Patel">
+        </div>
+        <div class="author-info">
+          <h3>TIRTH KUMAR JANTILAL KAVAR (Tirth Patel)</h3>
+          <p class="author-title">B.Tech CSE (AI &amp; ML) • Marwadi University • Class of 2029</p>
+          <p class="author-bio">
+            Founder of Qeist • Building with Next.js, Groq, Three.js, and Full-Stack AI. <br>
+            Enrollment ID: <strong>92500116005</strong> • GR No.: <strong>135965</strong> • Class: <strong>3EG1</strong>
+          </p>
+          <div class="author-socials">
+            <a href="https://github.com/Tirth-byte" target="_blank" rel="noopener noreferrer" class="social-btn">
+              <i class="fab fa-github"></i> GitHub Profile
+            </a>
+            <a href="https://linktr.ee/TIRTH_PATEL" target="_blank" rel="noopener noreferrer" class="social-btn">
+              <i class="fas fa-link"></i> Linktree
+            </a>
+            <a href="mailto:kavartirth9@gmail.com" class="social-btn">
+              <i class="fas fa-envelope"></i> Contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== Footer ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Tirth Kumar Jantilal Kavar. Built for Programming with Python (01AP0303) at Marwadi University.</p>
+      <p style="margin-top: 0.4rem; font-size: 0.78rem;">Hosted on GitHub Pages • Pure Vanilla CSS &amp; JavaScript</p>
+    </div>
+  </footer>
+
+  <!-- ==================== Lightbox Modal ==================== -->
+  <div id="lightboxModal" class="modal-backdrop">
+    <div class="lightbox-content">
+      <button id="lightboxClose" class="modal-close-btn">&times;</button>
+      <img id="lightboxImg" src="" alt="Screenshot Full View" class="lightbox-img">
+      <div id="lightboxCaption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- ==================== Code Modal ==================== -->
+  <div id="codeModal" class="modal-backdrop">
+    <div class="code-modal-card">
+      <div class="code-modal-header">
+        <h4 id="codeModalTitle" style="color: white; font-size: 0.95rem;">Python Snippet</h4>
+        <button id="codeModalClose" style="color: #8b949e; font-size: 1.5rem; line-height: 1;">&times;</button>
+      </div>
+      <pre class="code-modal-body" id="codeModalContent"></pre>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>

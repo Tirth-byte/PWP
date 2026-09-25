@@ -1,0 +1,65 @@
+
+2026-09-25 06:41:13,366 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:41:13,397 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:41:32,157 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:41:32,159 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:41:32,612 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:41:32,613 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:41:52,569 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:41:52,572 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:25,892 INFO File loaded: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:37,731 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:37,733 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:38,998 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:39,001 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:39,263 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:39,265 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:39,665 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:39,667 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:39,981 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:39,983 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:47,748 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:47,750 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:48,398 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:48,400 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:48,664 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:48,666 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:48,897 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:48,898 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:49,113 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:49,115 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:49,347 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:49,348 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:49,581 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:49,583 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:49,830 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:49,832 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:50,064 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:50,065 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:50,280 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:50,281 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:55,747 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:55,748 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:42:58,797 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:42:58,799 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:43:01,697 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:43:01,698 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:43:02,581 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:43:02,582 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:43:02,830 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:43:02,832 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:43:03,031 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:43:03,033 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:43:03,264 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:43:03,266 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:43:06,213 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 06:43:06,215 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 06:44:27,490 INFO Export completed: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/log_analysis.csv
+2026-09-25 07:26:07,612 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 07:26:07,615 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 07:26:07,631 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 07:26:07,631 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 07:27:12,299 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 07:27:12,302 INFO Analysis completed: 33 valid, 1 invalid
+2026-09-25 07:27:12,314 INFO Analysis started: /Users/macbookair/Desktop/PWP/Python_GUI_Projects/05_Log_File_Analyzer/sample_server.log
+2026-09-25 07:27:12,315 INFO Analysis completed: 33 valid, 1 invalid

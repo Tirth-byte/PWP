@@ -1,0 +1,3 @@
+employee_id,name,department,basic,days,hours,rate,bonus,allowances,tax_percent,other_deductions,overtime,gross,tax,deductions,net
+E001,Aarav Patel,IT,75000.0,26.0,18.0,200.0,1500.0,1000.0,10.0,500.0,3600.0,81100.0,8110.0,8610.0,72490.0
+E002,AGAMYA PANDEY,RELATIONS,200000.0,5.0,2.0,1000.0,30000.0,0.0,18.0,0.0,2000.0,232000.0,41760.0,41760.0,190240.0
